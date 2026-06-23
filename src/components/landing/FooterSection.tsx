@@ -17,7 +17,7 @@ export default function FooterSection() {
 
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/eliashernan95/znk-gestion-demo"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm font-medium text-stone-400 transition-colors hover:text-stone-600"

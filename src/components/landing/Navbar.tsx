@@ -31,7 +31,7 @@ export default function Navbar({ onEnterDemo }: NavbarProps) {
             Comparativa
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/eliashernan95/znk-gestion-demo"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-sm font-medium text-stone-500 transition-colors hover:text-stone-800"

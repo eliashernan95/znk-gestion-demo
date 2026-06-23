@@ -1,100 +1,113 @@
-# ZNK Gestion — Demo pública
+<p align="center">
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="screenshots/banner-dark.png">
+    <img alt="ZNK Gestion" src="screenshots/banner.png" width="500">
+  </picture>
+  <br><br>
+  <em>Sistema de gestión y ventas para comercios minoristas</em>
+</p>
 
-Demo interactiva de **ZNK Gestion**, un sistema de gestión y ventas para comercios.
+<p align="center">
+  <a href="https://eliashernan95.github.io/znk-gestion-demo/">
+    <img src="https://img.shields.io/badge/🚀_Probar_demo-online-4c6ef5?style=for-the-badge" alt="Probar demo" height="32">
+  </a>
+  &nbsp;
+  <a href="https://github.com/eliashernan95/znk-gestion-demo">
+    <img src="https://img.shields.io/badge/📦_Ver_código-repositorio-333?style=for-the-badge&logo=github" alt="Ver código" height="32">
+  </a>
+</p>
 
-**[Probar demo online →](https://github.com)** *(reemplazá con tu URL de GitHub Pages)*
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&style=flat-square" alt="React 18" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&style=flat-square" alt="TypeScript 5" />
+  <img src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&style=flat-square" alt="Vite 5" />
+  <img src="https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss&style=flat-square" alt="Tailwind 3" />
+  <img src="https://img.shields.io/badge/GitHub_Pages-online-222?logo=github&style=flat-square" alt="GitHub Pages" />
+</p>
 
 ---
 
-## ¿Qué es ZNK Gestion?
+## ¿Para qué sirve?
 
-ZNK Gestion es un sistema completo para la administración de comercios minoristas. Está pensado para:
+Un comercio chico suele manejarse con cuaderno, planilla de Excel o un sistema viejo que nadie entiende. ZNK Gestion reemplaza todo eso por una sola herramienta, simple y directa.
 
-- **Kioscos y almacenes**
-- **Verdulerías y fruterías**
-- **Ferreterías**
-- **Limpieza y perfumería**
-- **Indumentaria**
-- **Comercios generales**
+Vendés en el punto de venta, el stock se descuenta solo, la caja se cierra con un clic y los reportes te dicen qué vendiste y cuánto ganaste.
 
-Incluye punto de venta con lector de código de barras, control de stock, caja diaria, reportes, gestión de precios, facturación, importación desde Excel, y mucho más.
+Está pensado para kioscos, almacenes, perfumerías, ferreterías, verdulerías, indumentaria, pet shops y comercios generales.
+
+---
+
+## Funciones
+
+| | |
+|---|---|
+| **Punto de venta** | Búsqueda por código de barras o nombre, carrito, múltiples medios de pago |
+| **Control de stock** | Stock en tiempo real, alertas de stock bajo, categorías y marcas |
+| **Dashboard** | Ventas del día, productos más vendidos, historial de operaciones |
+| **Catálogo** | Productos con filtros por categoría, detalle de márgenes y costos |
+| **Modo oscuro** | Alternancia con un botón, adaptable al entorno de trabajo |
+
+La versión completa suma: caja diaria, usuarios y roles con permisos, reportes avanzados, importación desde Excel, facturación, backup y restauración.
 
 ---
 
 ## Vista previa
 
-![Landing de ZNK Gestion](screenshots/landing.png)
+Las capturas se agregan en la carpeta [`screenshots/`](screenshots/). Una vez subidas, la galería se completa automáticamente.
 
-| Punto de venta | Dashboard | Productos |
-|:---:|:---:|:---:|
-| ![POS](screenshots/pos.png) | ![Dashboard](screenshots/dashboard.png) | ![Productos](screenshots/products.png) |
+| Landing | Punto de venta |
+|:---:|:---:|
+| <img src="screenshots/landing.png" alt="Landing page" width="400"> | <img src="screenshots/pos.png" alt="Punto de venta" width="400"> |
+| **Dashboard** | **Productos** |
+| <img src="screenshots/dashboard.png" alt="Dashboard" width="400"> | <img src="screenshots/productos.png" alt="Productos" width="400"> |
 
-*(Agregá screenshots reales en la carpeta `screenshots/`)*
-
----
-
-## Funciones principales
-
-- **Punto de venta** — Búsqueda por código de barras, carrito de compras, múltiples medios de pago.
-- **Productos y stock** — Catálogo con categorías, marcas y proveedores. Alertas de stock bajo.
-- **Caja diaria** — Apertura, cierre, registro de ingresos y egresos.
-- **Reportes** — Ventas diarias, productos más vendidos, rentabilidad, rotación.
-- **Usuarios y roles** — Permisos granulares por puesto de trabajo.
-- **Importar Excel** — Carga masiva de productos desde planillas.
-- **Modo oscuro** — Interfaz clara y oscura, adaptable al entorno.
-- **Multi-rubro** — Plantillas precargadas según el tipo de comercio.
+Podés tomar las capturas desde la [demo online](https://eliashernan95.github.io/znk-gestion-demo/) o corriendo el proyecto con `npm run dev`.
 
 ---
 
-## Demo en vivo
+## Limitaciones de la demo
 
-La demo de esta carpeta es una versión **totalmente independiente** del sistema real:
-
-- ✅ **No requiere registro** — entrás directo al sistema.
-- ✅ **Datos ficticios** — productos, ventas y clientes de prueba.
-- ✅ **Modo oscuro** — alternás con un clic.
-- ✅ **Sin backend** — todo funciona en el navegador.
-
-### Limitaciones de la demo
+La demo es autocontenida: no usa backend, no persiste datos, no pide información real.
 
 | Recurso | Límite |
-|:---|---:|
+|---|---|
 | Productos | 20 |
 | Ventas | 10 |
-| Datos reales | No |
-| Claves | No |
-| Base de datos | No |
-| Funciones sensibles | Deshabilitadas |
-
-La demo muestra la **experiencia de uso**, no la funcionalidad completa. El sistema real incluye backup, facturación AFIP, impresión de tickets, y más.
+| Registro | No requiere |
+| Datos reales | No usa |
+| Contraseñas | No maneja |
+| Persistencia | Se pierde al recargar |
 
 ---
 
 ## Tecnología
 
-| Capa | Tecnología |
-|:---|:---|
-| Frontend | React + TypeScript + Vite |
-| Estilos | Tailwind CSS |
+| Capa | Qué usa |
+|---|---|
+| Interfaz | React 18 + TypeScript |
+| Build | Vite 5 |
+| Estilos | Tailwind CSS 3 |
 | Gráficos | Recharts |
 | Íconos | Lucide React |
-| Backend (versión completa) | Node.js + Express + Prisma |
-| Base de datos (versión completa) | SQLite |
-| Escritorio (versión completa) | Electron |
+| Deploy | GitHub Actions + Pages |
+
+La versión completa suma Node.js, Express, Prisma, SQLite y Electron para escritorio. Esta demo es solo el frontend de presentación.
 
 ---
 
-## Correr la demo localmente
+## Ejecutar localmente
 
 ```bash
-cd demo-publica
+git clone https://github.com/eliashernan95/znk-gestion-demo.git
+cd znk-gestion-demo
 npm install
 npm run dev
 ```
 
-Abrí [http://localhost:5173](http://localhost:5173) en el navegador.
-
-Para generar una build de producción:
+Abrí `http://localhost:5173`. Para generar una build de producción:
 
 ```bash
 npm run build
@@ -103,50 +116,42 @@ npm run preview
 
 ---
 
-## Estructura de archivos
+## Estructura
 
 ```
-demo-publica/
-├── index.html
-├── package.json
-├── vite.config.ts
-├── tailwind.config.js
-├── tsconfig.json
-├── .gitignore
-├── README.md
-├── screenshots/
-│   ├── landing.png
-│   ├── pos.png
-│   ├── dashboard.png
-│   └── products.png
-└── src/
-    ├── main.tsx
-    ├── App.tsx
-    ├── styles/
-    │   └── index.css
-    ├── components/
-    │   ├── landing/
-    │   │   ├── Navbar.tsx
-    │   │   ├── HeroSection.tsx
-    │   │   ├── FeatureCards.tsx
-    │   │   ├── ScreenshotsSection.tsx
-    │   │   └── FooterSection.tsx
-    │   └── demo/
-    │       ├── DemoStore.tsx
-    │       └── DemoLayout.tsx
-    ├── pages/
-    │   ├── LandingPage.tsx
-    │   ├── DemoApp.tsx
-    │   └── demo/
-    │       ├── DemoPOS.tsx
-    │       ├── DemoProducts.tsx
-    │       └── DemoDashboard.tsx
-    └── data/
-        └── demoData.ts
+src/
+├── main.tsx
+├── App.tsx
+├── styles/
+│   └── index.css
+├── data/
+│   └── demoData.ts              # 20 productos de prueba
+├── components/
+│   ├── landing/
+│   │   ├── Navbar.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── BenefitsSection.tsx
+│   │   ├── ModulesSection.tsx
+│   │   ├── IdealForSection.tsx
+│   │   ├── BeforeAfterSection.tsx
+│   │   ├── CTASection.tsx
+│   │   └── FooterSection.tsx
+│   └── demo/
+│       ├── DemoStore.tsx         # Estado global (carrito, ventas, stock)
+│       └── DemoLayout.tsx        # Sidebar + header + marca de agua
+└── pages/
+    ├── LandingPage.tsx
+    ├── DemoApp.tsx
+    └── demo/
+        ├── DemoPOS.tsx
+        ├── DemoProducts.tsx
+        └── DemoDashboard.tsx
 ```
 
 ---
 
-## Licencia
+## Estado
 
-Este proyecto es software privado. La demo pública se comparte con fines de demostración y evaluación.
+Este repositorio es una demo pública del sistema ZNK Gestion. Muestra la experiencia de uso pero no incluye backend, persistencia de datos ni funciones administrativas.
+
+El sistema completo es privado. Si querés saber más, abrí un [issue](https://github.com/eliashernan95/znk-gestion-demo/issues) o escribime por GitHub.
