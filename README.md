@@ -56,15 +56,11 @@ La versión completa suma: caja diaria, usuarios y roles con permisos, reportes 
 
 ## Vista previa
 
-Las capturas se agregan en la carpeta [`screenshots/`](screenshots/). Una vez subidas, la galería se completa automáticamente.
-
 | Landing | Punto de venta |
 |:---:|:---:|
-| <img src="screenshots/landing.png" alt="Landing page" width="400"> | <img src="screenshots/pos.png" alt="Punto de venta" width="400"> |
+| <img src="screenshots/landing.png.png" alt="Landing page" width="400"> | <img src="screenshots/pos.png.png" alt="Punto de venta" width="400"> |
 | **Dashboard** | **Productos** |
-| <img src="screenshots/dashboard.png" alt="Dashboard" width="400"> | <img src="screenshots/productos.png" alt="Productos" width="400"> |
-
-Podés tomar las capturas desde la [demo online](https://eliashernan95.github.io/znk-gestion-demo/) o corriendo el proyecto con `npm run dev`.
+| <img src="screenshots/dashboard.png.png" alt="Dashboard" width="400"> | <img src="screenshots/productos.png.png" alt="Productos" width="400"> |
 
 ---
 
